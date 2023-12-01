@@ -1,7 +1,6 @@
 {
   "name": "nodejs-challenge",
   "version": "1.0.0",
-  "dependencies": {},
   "devDependencies": {
     "@types/node": "^13.5.3",
     "typescript": "^3.7.5"
@@ -12,5 +11,13 @@
     "build-source-watch": "node node_modules/typescript/bin/tsc -w -p source/tsconfig.json",
     "build-source-debug": "node node_modules/typescript/bin/tsc -p source/tsconfig.debug.json",
     "build-source-debug-watch": "node node_modules/typescript/bin/tsc -w -p source/tsconfig.debug.json"
-  }
+  },
+  "description": "Herzlichen Glückwunsch, Du erhältst heute unsere Coding Challenge! Weiter unten findest Du die Aufgaben-Stellung. Alles, was Du (neben NodeJS) brauchst, findest du in diesem Paket.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "invitation-red"
+  },
+  "author": "Markus Riedl",
+  "license": "ISC"
 }
